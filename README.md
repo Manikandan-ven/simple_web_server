@@ -21,8 +21,6 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-
-
 ```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content="""
@@ -155,7 +153,6 @@ content="""
     </table>
 </body>
 </html>
-
 """
 class myhandler (BaseHTTPRequestHandler):
     def do_GET(self):
